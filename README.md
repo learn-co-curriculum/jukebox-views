@@ -8,7 +8,7 @@
 
 ## Introduction
 
-In this lab, you're going to hook up some audio files to a view controller that will allow a user to select a song from a list and playback the associated audio track. First, you're going to set up the data models for holding the information at run time. Then, you'll connect the data models to a view controller than will make the songs interactive to the user.
+In this lab, you're going to hook up some audio files to a view controller that will allow a user to select a song from a list and playback the associated audio track. First, you're going to set up the data models for holding the information at run time. Then, you'll connect the data models to a view controller. FInally, you'll make the songs interactive to the user.
 
 ## Instructions
 
@@ -140,5 +140,7 @@ Once the `NSLog()`s are working, you can set up an audio player to actually play
   5. Now write the implementation for the "Stop" button's IBAction to call the `stop` method on the `self.audioPlayer` object.
 
   6. Run your jukebox in the simulator. Select a song to play and listen to your sound system churn out a sweet tune! (**Top-tip:** *Make sure your volume is on, but at a moderate level.*)
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/jukebox-views'>(advanced) Jukebox Views</a> on Learn.co and start learning to code for free.</p>
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/jukebox-views'>(advanced) Jukebox Views</a> on Learn.co and start learning to code for free.</p>
